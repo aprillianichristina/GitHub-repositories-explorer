@@ -1,0 +1,70 @@
+  Berikut adalah contoh isi file README.md untuk proyek tersebut :
+  
+  # GitHub User Search App
+
+This is a React application integrated with the GitHub API that allows users to search for GitHub users with usernames similar to the entered search query. Upon clicking a user, it displays their repositories (with no limitation on the number of repositories displayed).
+
+## Features
+
+- Search for GitHub users based on username similarity
+- Display up to 5 users matching the search query
+- Click on a user to view their repositories
+
+## Technologies Used
+
+- React: JavaScript library for building user interfaces
+- TypeScript: Typed superset of JavaScript
+- axios: Promise-based HTTP client for making API requests
+- react-router-dom: Library for handling routing in React applications
+- styled-components: Library for styling React components
+- @testing-library/react: Testing utilities for React components
+- @testing-library/jest-dom: Custom jest matchers for DOM testing
+- eslint-plugin-react: Linting rules for React
+- eslint-plugin-react-hooks: Linting rules for React Hooks
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone the repository:
+
+   ```shell
+   git clone <repository-url>
+
+
+1. Install the dependencies:
+
+   cd github-app
+   npm install
+
+2. Start the development server:
+
+   npm start
+
+The application will be available at http://localhost:3000.
+
+Usage
+
+Enter a GitHub username or a partial username in the search input.
+Click the "Search" button.
+The application will display up to 5 users matching the search query.
+Click on a user's name to view their repositories.
+The application will navigate to the user's repository page, displaying a list of repositories.
+
+Testing
+
+The application includes unit and integration tests to ensure the correctness of its functionality. To run the tests, use the following command:
+
+npm test
+
+
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
+
+License
+This project is licensed under the MIT License.
+
+
+Pastikan untuk mengganti `<repository-url>` di bagian "Getting Started" dengan URL repositori yang sesuai.
+
+
